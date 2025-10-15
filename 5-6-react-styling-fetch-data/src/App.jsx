@@ -338,14 +338,14 @@ function App() {
 
   return (
     <div className="app">
-      <header className="py-3">
+      <header className="bg-primary text-white py-3 mb-4 shadow">
         <Container>
-          <h1 className="mb-2">User Management Dashboard</h1>
-          <p className="text-muted">Manage and view user information</p>
+          <h2 className="mb-0">User Management Dashboard</h2>
+          <p className="mb-0 opacity-75">Manage and view user information</p>
         </Container>
       </header>
 
-      <Container className="">
+      <Container className="mt-5">
         <SearchBar />
 
         {/* {loading && <Spinner ... />} */}
