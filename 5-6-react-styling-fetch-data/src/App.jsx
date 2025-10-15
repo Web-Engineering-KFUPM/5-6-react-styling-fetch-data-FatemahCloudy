@@ -337,7 +337,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className="mb-4">
       <header className="bg-primary text-white py-3 mb-4 shadow">
         <Container>
           <h2 className="mb-0">User Management Dashboard</h2>
