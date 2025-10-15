@@ -338,10 +338,10 @@ function App() {
 
   return (
     <div className="app">
-      <header className="">
+      <header className="py-3">
         <Container>
-          <h1 className="">User Management Dashboard</h1>
-          <p className="">Manage and view user information</p>
+          <h1 className="mb-2">User Management Dashboard</h1>
+          <p className="text-muted">Manage and view user information</p>
         </Container>
       </header>
 
@@ -355,7 +355,7 @@ function App() {
         <UserModal />
       </Container>
 
-      <footer className="">
+      <footer className="py-3 mt-4">
         <Container>
           <p className="text-center text-muted mb-0">
             &copy; 2024 User Management Dashboard
