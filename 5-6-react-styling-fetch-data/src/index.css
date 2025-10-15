@@ -1,8 +1,8 @@
 /* Custom CSS Variables */
 :root {
-  --primary-color: #0d6efd;
-  --secondary-color: #6c757d;
-  --light-color: #f8f9fa;
+  --primary-color: green;
+  --secondary-color: pink;
+  --light-color: beige;
   --dark-color: #212529;
 }
 
